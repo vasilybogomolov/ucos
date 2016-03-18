@@ -1448,12 +1448,12 @@ footer {
   margin-top: 90px;
   margin-bottom: 35px;
 }
-.left-block p {
-  padding-right: 30px;
+.article-block-right-p {
+  margin-left: 30px;
   word-break: break-all;
 }
-.right-block p {
-  padding-left: 30px;
+.article-block-left-p {
+  margin-right: 30px;
   word-break: break-all;
 }
 .rate-list .profit-info-content {
@@ -2019,4 +2019,214 @@ footer {
 .your-deposite .inverse .bottom {
   font-size: 14px;
   margin-top: 20px;
+}
+
+/*reg*/
+.reg {
+  padding: 60px 0 100px 0;
+  background: #EFF0F1;
+}
+.reg h3 {
+  font-size: 21px;
+  margin-bottom: 50px;
+}
+.none-decorate {
+  color: #1e2437;
+  font-size: 45px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 90px;
+}
+.white-substribe {
+  padding: 60px 0;
+  background: #ffffff;
+  border: 1px solid #C0C7CD;
+  border-radius: 3px;
+  box-shadow: 0px 0px 15px rgba( 20, 22, 25, 0.3 );
+  text-align: center;
+}
+.left-block .white-substribe {
+  margin-right: 50px;
+}
+.fb-logo {
+  width: 496px;
+  height: 180px;
+  padding-top: 79px;
+}
+.fb-logo a {
+  background: url("../img/facebook-logo.png");
+  display: inline-block;
+  width: 250px;
+  height: 90px;
+}
+.reg .white-form {
+  padding: 60px 70px;
+}
+.reg .white-form p {
+  margin-bottom: 20px;
+}
+.reg .white-form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 15px;
+  padding-left: 5px;
+}
+.commission {
+  font-size: 55px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.payment-block {
+  display: table;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+.payment-block-item {
+  display: table-cell;
+  width: 33%;
+}
+.active .payment-icon  {
+  background-color: #edeef2;
+  border: 3px solid #7CB90B;
+}
+.payment-icon {
+  width: 135px;
+  margin: 0 auto;
+  background-image: url("../img/payment-sprite.png");
+  background-repeat: no-repeat;
+  height: 50px;
+  padding: 17px 0;
+  border: 3px solid #C0C7CD;
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px 0px rgba( 0, 0,0, 0.3 );
+  margin-bottom: 30px;
+}
+
+.payment-icon-pf {
+  background-position: 10px 25px;
+}
+.payment-icon-qiwi {
+  background-position: -132px 25px;
+}
+.payment-icon-payment {
+  background-position: -284px 25px;
+}
+.payment-icon-okpay {
+  background-position: -284px -99px;
+}
+.payment-icon-yandex {
+  background-position: -133px -99px;
+}
+.payment-icon-bitcoin {
+  background-position: 10px -99px;
+}
+.payment-icon-nix {
+  background-position: 10px -227px;
+}
+.payment-icon-advcash {
+  background-position: -135px -227px;
+}
+.payment-icon-payza {
+  background-position: -281px -227px;
+}
+
+
+/*finance*/
+.finance-left-block {
+  margin-right: 10px;
+}
+.finance-right-block {
+  margin-left: 10px;
+}
+.white-info-block {
+  padding: 25px 15px;
+  background: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px rgba( 0, 0, 0, 0.4 );
+  text-align: center;
+  text-transform: uppercase;
+
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.white-info-block-money {
+  font-size: 33px;
+}
+.finance-btn {
+  margin-top: 70px;
+}
+.finance-btn .btn {
+  width: 300px;
+}
+.payment-finance-block {
+  margin-bottom: 45px;
+
+}
+
+.payment-finance-block-item {
+  width: 239px;
+  padding: 10px;
+  float: left;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px rgba( 0, 0, 0, 0.4 );
+}
+
+.payment-finance-block-item:first-child {
+  margin-right: 20px;
+}
+
+.payment-finance-block-item-icon {
+  width: 155px;
+  height: 40px;
+  background: url("../img/payment-sprite-light.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.item-pf {
+  background-position: 0 0;
+}
+.item-payeer {
+  background-position: -277px 0;
+}
+.item-bitcoin {
+  background-position: -551px 0;
+}
+.item-nix {
+  background-position: -828px 0;
+}
+.payment-finance-block-btn .btn {
+  font-size: 33px;
+  padding: 15px 48px;
+  box-shadow: -1px -1px 0px 0px rgb( 20, 22, 25 );
+  margin-bottom: 10px;
+}
+
+.deposite-bottom {
+  float: left;
+  width: 104px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+  box-shadow: 0px 0px 4px rgba( 20, 22, 25, 0.5 );
+  font-size: 21px;
+  padding: 15px 4px;
+}
+.deposite-bottom:first-child {
+  margin-right: 10px;
+}
+.deposite-left-head {
+  font-size: 11px;
+  margin-bottom: 25px;
+}
+.finance-btn .btn{
+  font-size: 18px;
+  box-shadow: -1px -1px 0px 0px rgb( 20, 22, 25 );
 }
