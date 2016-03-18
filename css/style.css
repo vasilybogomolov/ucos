@@ -7,6 +7,7 @@ html, body {
 .wrap {
   overflow: auto;
   height: 100%;
+  min-width: 1123px;
 }
 .content {
   margin: 0 auto;
@@ -55,6 +56,9 @@ th,td {
 }
 td {
   font-weight: 100;
+}
+strong {
+  font-weight: bold;
 }
 .clear {
   clear: both;
@@ -162,6 +166,9 @@ td {
   .yellow-substribe {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffb2d904",endColorstr="#ff6cb702",GradientType=0);
   }
+  .dark-substribe {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff24415c",endColorstr="#ff0b1721",GradientType=0);
+  }
 }
 
 
@@ -231,6 +238,19 @@ td {
   background-image: repeating-linear-gradient(to bottom,rgb(178, 217, 4) 0%,rgb(108, 183, 2) 100%);
   background-image: -ms-repeating-linear-gradient(top,rgb(178, 217, 4) 0%,rgb(108, 183, 2) 100%);
 }
+.dark-substribe {
+  background-color: #182c3f;
+  /* IE9, iOS 3.2+ */
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBzdG9wLWNvbG9yPSIjMjQ0MTVjIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiMwYjE3MjEiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIxIi8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(36, 65, 92)),color-stop(1, rgb(11, 23, 33)));
+  /* Android 2.3 */
+  background-image: -webkit-repeating-linear-gradient(top,rgb(36, 65, 92) 0%,rgb(11, 23, 33) 100%);
+  /* IE10+ */
+  background-image: repeating-linear-gradient(to bottom,rgb(36, 65, 92) 0%,rgb(11, 23, 33) 100%);
+  background-image: -ms-repeating-linear-gradient(top,rgb(36, 65, 92) 0%,rgb(11, 23, 33) 100%);
+}
+
+
 
 
 
@@ -1555,4 +1575,220 @@ footer {
 }
 .share-manager {
   color: #009F70;
+}
+
+/*information*/
+.inform-page {
+  background: url("../img/inform-bg.jpg");
+}
+.information {
+  padding: 100px 0 50px 0;
+  background: #EFF0F1;
+}
+.left-image {
+  box-shadow: 0px 0px 15px rgba( 20, 22, 25, 0.3 );
+  width: 545px;
+  height: 365px;
+  border: 1px solid #fff;
+  overflow: hidden;
+  margin: 0 35px 55px 0;
+  float: left;
+}
+.image-text {
+  float: left;
+  width: 522px;
+}
+.image-text h3{
+  line-height: 33px;
+  margin-top: 85px;
+}
+ 
+
+/*history*/
+.header-content.user-info {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.history-page {
+  background: url("../img/history-bg.jpg");
+}
+.history {
+  padding: 60px 0 50px 0;
+  background: #EFF0F1;
+}
+.transparent-substribe {
+  border: 1px solid #647481;
+  border-radius: 3px;
+  background: rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 10px 0px rgb( 20, 22, 25 );
+}
+.user-info .transparent-substribe {
+  text-align: left;
+  padding: 30px;
+  float: left;
+}
+.user-info .first-block {
+  width: 320px;
+  margin-right: 16px;
+
+}
+.name {
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}
+.name i {
+  color: #24d2e8;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.email {
+  color: #00e7b5;
+  font-size: 14px;
+  font-weight: 100;
+}
+.email i {
+  margin-right: 10px;
+  color: #00e7b5;
+  font-size: 16px;
+}
+.network-info {
+  width: 315px;
+  float: left;
+  margin-right: 16px;
+}
+.network-info .left{
+  width: 185px;
+  float: left;
+  color: #c1c4cb;
+  font-size: 14px;
+  font-weight: 100;
+}
+.network-info .right{
+  width: 125px;
+  float: left;
+  font-weight: bold;
+  font-size: 14px;
+}
+.network-info-top {
+  margin-bottom: 25px;
+}
+.user-info .balance-block {
+  width: 245px;
+  text-align: center;
+  font-size: 14px;
+  color: #c1c4cb;
+  text-transform: uppercase;
+  background: none;
+}
+.balance {
+  color: rgb( 162, 221, 23 );
+  font-size: 33px;
+  margin-top: 6px;
+  font-weight: bold;
+}
+.sub-menu {
+  margin-bottom: 70px;
+}
+.sub-menu-item {
+  display: block;
+  float: left;
+  width: 259px;
+  text-align: center;
+  color: #252528;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 25px 0;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  box-shadow: 0px 0px 4px 0px rgba( 20, 22, 25, 0.3 );
+  margin-left: 20px;
+  margin-bottom: 20px;
+  text-shadow: 0px 1px 1px rgba(255,255,255,0.6);
+}
+.sub-menu-item:first-child {
+  margin-left: 0;
+}
+.sub-menu-item i {
+  font-size: 33px;
+  margin-bottom: 25px;
+}
+.history-item {
+  padding: 10px;
+  border: 1px solid #C0C7CD;
+  box-shadow: 0px 0px 4px 0px rgba( 20, 22, 25, 0.3 );
+  margin-bottom: 10px;
+  border-radius: 3px;
+  background: #ffffff;
+}
+.history-item-single {
+  float: left;
+  margin-left: 10px;
+  width: 202px;
+  border-radius: 3px;
+  text-align: center;
+  padding: 10px 0;
+  color: #fff;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.history-item-single .bottom {
+  font-size: 19px;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+.history-item-single.first {
+  text-transform: none;
+  background-image: url("../img/dollar-icon-2.png");
+  background-position: left 15px center;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  margin-left: 0;
+}
+.history-item-single.first .bottom.up {
+  text-align: left;
+  padding-left: 50px;
+  background: url("../img/arrow-up.png");
+  background-repeat: no-repeat;
+  background-position: left 25px bottom 1px;
+  color: #96CB0E;
+
+}
+.history-item-single.first .bottom.down {
+  text-align: left;
+  padding-left: 50px;
+  background: url("../img/arrow-down.png");
+  background-repeat: no-repeat;
+  background-position: left 28px bottom -1px;
+  color: #00ABEA;
+}
+.pagination {
+  margin-top: 65px;
+  text-align: center;
+}
+.pagination-btn {
+  border: 1px solid #C0C7CD;
+  box-shadow: 0px 0px 4px 0px rgba( 20, 22, 25, 0.3 );
+  background-color: #ffffff;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  width: 40px;
+  display: inline-block;
+  padding: 12px 0;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.back-btn, .next-btn {
+  font-size: 26px;
+  padding: 6px 0;
+}
+.back-btn {
+  margin-left: 0;
 }
